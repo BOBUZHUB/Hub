@@ -1,1 +1,5 @@
+  game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script Launching", 
+    Text = "Please wait for it to load", 
+  })
 loadstring(game:HttpGet('https://scripts.luawl.com/Bobuz/Hub.lua'))()
